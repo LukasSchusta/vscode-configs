@@ -96,7 +96,7 @@
       ".vscode": true
       // "node_modules": true
     },
-    "workbench.iconTheme": "symbols",
+    "workbench.iconTheme": "vscode-icons",
     "update.mode": "start",
     "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.defaultProfile.osx": "fish",
@@ -126,7 +126,7 @@
     },
     "editor.hideCursorInOverviewRuler": true,
     "editor.minimap.enabled": false,
-    "window.titleBarStyle": "native",
+    "window.titleBarStyle": "custom",
     "apc.electron": {
       "titleBarStyle": "hiddenInset",
       "trafficLightPosition": {
@@ -227,5 +227,10 @@
     ],
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.statusBar.visible": false,
-    "workbench.layoutControl.enabled": false
+    "workbench.layoutControl.enabled": false,
+    "security.allowedUNCHosts": [
+      "wsl.localhost"
+    ],
+    "files.autoSave": "afterDelay",
+    "window.customTitleBarVisibility": "never"
   }
